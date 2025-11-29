@@ -4,6 +4,7 @@
 ## 📋 목차
 
 - [프로젝트 소개](#-프로젝트-소개)
+- [팀원 및 역할](#-팀원-및-역할)
 - [주요 화면](#-주요-화면)
 - [시스템 아키텍처](#-시스템-아키텍처)
 - [주요 기능](#-주요-기능)
@@ -13,14 +14,11 @@
 - [기술 스택](#-기술-스택)
 - [프로젝트 구조](#-프로젝트-구조)
 - [빠른 시작](#-빠른-시작)
-- [사용 예시](#-사용-예시)
 - [성능 및 비용](#-성능-및-비용)
-- [개발 과정](#-개발-과정)
 - [기대 효과](#-기대-효과)
-- [팀원 및 역할](#-팀원-및-역할)
 - [라이선스](#-라이선스)
 
-### 📌 프로젝트 소개
+## 📌 프로젝트 소개
 All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 질의를 지능적으로 처리하여 최적의 패널을 추출하는 차세대 검색 시스템입니다.
 "캠핑을 좋아하는 30대 서울 거주 여성"과 같은 자연어 질의만으로 36,113명의 패널과 636,248건의 설문 응답 데이터를 검색하고, AI가 생성한 페르소나 및 통계 시각화를 통해 즉각적인 인사이트를 제공합니다.
 
@@ -39,6 +37,15 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 - 대화형 연속 검색: LangGraph 세션 관리로 드릴다운 지원
 - 실시간 통계 시각화: Chart.js 인터랙티브 차트
 - BGE 기반 리랭킹: 전처리 없이 질문-응답 의미 유사성 계산
+
+## 👥 팀원 및 역할
+
+| 프로필 | 이름 | 역할 | 담당 업무 | GitHub |
+|:------:|------|------|-----------|:------:|
+| <img src="https://github.com/SeoukwooLee.png" width="80" height="80"> | **이석우** | Data Engineer | 패널 검색 파이프라인 구축<br/>LLM 프롬프트 엔지니어링 | [![GitHub](https://img.shields.io/badge/-@SeoukwooLee-181717?style=flat-square&logo=github)](https://github.com/SeoukwooLee) |
+| <img src="https://github.com/Dawon-Y.png" width="80" height="80"> | **양다원** | Full-stack Developer | UI 디자인 & 프론트엔드 개발<br/>백엔드(로그인/검색) API 개발 및 연동 | [![GitHub](https://img.shields.io/badge/-@Dawon--Y-181717?style=flat-square&logo=github)](https://github.com/Dawon-Y) |
+| <img src="https://github.com/WinterFlw.png" width="80" height="80"> | **정수현** | Backend Developer | 데이터베이스 구조 개발<br/>검색 로직 구체화 | [![GitHub](https://img.shields.io/badge/-@WinterFlw-181717?style=flat-square&logo=github)](https://github.com/WinterFlw) |
+| <img src="https://github.com/12hsh12.png" width="80" height="80"> | **홍성환** | Full-stack Developer | UI 디자인 & 프론트엔드 개발<br/>백엔드(라이브러리/히스토리/패널 상세) API 개발 및 연동 | [![GitHub](https://img.shields.io/badge/-@12hsh12-181717?style=flat-square&logo=github)](https://github.com/12hsh12) |
 
 ## 🎥 주요 화면
 1. 메인 검색 화면
@@ -501,6 +508,7 @@ BGE Reranker: $0 (로컬 모델)
 
 - SQL 지식 없이 자연어로 데이터 탐색
 - 조직 전반의 데이터 기반 문화 확산
+
 
 ## 📄 라이선스
 이 프로젝트는 MIT 라이선스를 따릅니다.
