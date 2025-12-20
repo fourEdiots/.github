@@ -54,7 +54,7 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 
 ## 🎥 주요 화면
 1. 메인 검색 화면
-- 로그인 후 자연어로 패널 검색
+- 로그인 후 자연어로 패널 검색<br/>
   <img width="661" height="297" alt="image" src="https://github.com/user-attachments/assets/05368a55-1cb2-4037-94bd-9519cb952984" />
 
 
@@ -62,18 +62,18 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 
 - 그룹 페르소나: LLM 생성 텍스트 + AI 이미지 + 해시태그
 - 통계 차트: 연령대/성별/지역/직업 분포 시각화
-- 개별 패널: 유사도 점수 + 매칭된 질문 응답
+- 개별 패널: 유사도 점수 + 매칭된 질문 응답<br/>
   <img width="658" height="292" alt="image" src="https://github.com/user-attachments/assets/78b26064-285c-416f-877a-f75746bf1d4a" />
 
 
 3. 패널 상세 페이지
-- 개별 패널의 고유 페르소나, 기본 프로필, 태그 정보
+- 개별 패널의 고유 페르소나, 기본 프로필, 태그 정보<br/>
   <img width="662" height="302" alt="image" src="https://github.com/user-attachments/assets/efa4ed63-4ec5-4cf5-a118-bcd562171d18" />
 
 
 4. 검색 히스토리 & 라이브러리
 - 검색 기록 조회 및 재실행
-- 자주 사용하는 검색 저장 관리
+- 자주 사용하는 검색 저장 관리<br/>
   <img width="645" height="292" alt="image" src="https://github.com/user-attachments/assets/86c8ac4d-def4-4020-a23f-e0a81ac49857" />
 
 
