@@ -46,9 +46,9 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 
 | 프로필 | 이름 | 역할 | 담당 업무 | GitHub |
 |:------:|------|------|-----------|:------:|
-| <img src="https://github.com/SeoukwooLee.png" width="80" height="80"> | **이석우** | Leader/AI-Data Engineer | 패널 검색 파이프라인 구축<br/>LLM 프롬프트 엔지니어링 | [![GitHub](https://img.shields.io/badge/-@SeoukwooLee-181717?style=flat-square&logo=github)](https://github.com/SeoukwooLee) |
+| <img src="https://github.com/SeoukwooLee.png" width="80" height="80"> | **이석우** | Leader/AI,Data Engineer | 패널 검색 파이프라인 구축<br/>LLM 프롬프트 엔지니어링 | [![GitHub](https://img.shields.io/badge/-@SeoukwooLee-181717?style=flat-square&logo=github)](https://github.com/SeoukwooLee) |
 | <img src="https://github.com/Dawon-Y.png" width="80" height="80"> | **양다원** | Full-stack Developer | UI 디자인 & 프론트엔드 개발<br/>백엔드(로그인/검색) API 개발 및 연동 | [![GitHub](https://img.shields.io/badge/-@Dawon--Y-181717?style=flat-square&logo=github)](https://github.com/Dawon-Y) |
-| <img src="https://github.com/WinterFlw.png" width="80" height="80"> | **정수현** | AI-Data Engineer | AI 아키텍쳐 설계<br/>데이터 임베딩 | [![GitHub](https://img.shields.io/badge/-@WinterFlw-181717?style=flat-square&logo=github)](https://github.com/WinterFlw) |
+| <img src="https://github.com/WinterFlw.png" width="80" height="80"> | **정수현** | AI,Data Engineer | AI 아키텍쳐 설계<br/>데이터 임베딩 | [![GitHub](https://img.shields.io/badge/-@WinterFlw-181717?style=flat-square&logo=github)](https://github.com/WinterFlw) |
 | <img src="https://github.com/12hsh12.png" width="80" height="80"> | **홍성환** | Full-stack Developer | UI 디자인 & 프론트엔드 개발<br/>백엔드(라이브러리/히스토리/패널 상세) API 개발 및 연동 | [![GitHub](https://img.shields.io/badge/-@12hsh12-181717?style=flat-square&logo=github)](https://github.com/12hsh12) |
 
 
