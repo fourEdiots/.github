@@ -1,4 +1,5 @@
 # All is Well - 임베딩 결합 적응형 자연어 패널 추출 시스템
+
 ## LangGraph + RAG + BGE Reranker 기반 차세대 지능형 검색 플랫폼
 
 ## 📋 목차
@@ -20,6 +21,7 @@
 - [라이선스](#-라이선스)
 
 ## 📌 프로젝트 소개
+
 All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 질의를 지능적으로 처리하여 최적의 패널을 추출하는 차세대 검색 시스템입니다.
 "캠핑을 좋아하는 30대 서울 거주 여성"과 같은 자연어 질의만으로 36,113명의 패널과 636,248건의 설문 응답 데이터를 검색하고, AI가 생성한 페르소나 및 통계 시각화를 통해 즉각적인 인사이트를 제공합니다.
 
@@ -39,24 +41,25 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 - 실시간 통계 시각화: Chart.js 인터랙티브 차트
 - BGE 기반 리랭킹: 전처리 없이 질문-응답 의미 유사성 계산
 
-## 🔍프리뷰
+## 🔍 프리뷰
+
 <img width="1587" height="2245" alt="프리뷰" src="https://github.com/user-attachments/assets/d872b47f-78db-407c-9c80-878bc7d67007" />
 
 ## 👥 팀원 및 역할
 
-| 프로필 | 이름 | 역할 | 담당 업무 | GitHub |
-|:------:|------|------|-----------|:------:|
-| <img src="https://github.com/SeoukwooLee.png" width="80" height="80"> | **이석우** | Leader/AI,Data Engineer | 패널 검색 파이프라인 구축<br/>LLM 프롬프트 엔지니어링 | [![GitHub](https://img.shields.io/badge/-@SeoukwooLee-181717?style=flat-square&logo=github)](https://github.com/SeoukwooLee) |
-| <img src="https://github.com/Dawon-Y.png" width="80" height="80"> | **양다원** | Full-stack Developer | UI 디자인 & 프론트엔드 개발<br/>백엔드(로그인/검색) API 개발 및 연동 | [![GitHub](https://img.shields.io/badge/-@Dawon--Y-181717?style=flat-square&logo=github)](https://github.com/Dawon-Y) |
-| <img src="https://github.com/WinterFlw.png" width="80" height="80"> | **정수현** | AI,Data Engineer | AI 아키텍쳐 설계<br/>데이터 임베딩 | [![GitHub](https://img.shields.io/badge/-@WinterFlw-181717?style=flat-square&logo=github)](https://github.com/WinterFlw) |
-| <img src="https://github.com/12hsh12.png" width="80" height="80"> | **홍성환** | Full-stack Developer | UI 디자인 & 프론트엔드 개발<br/>백엔드(라이브러리/히스토리/패널 상세) API 개발 및 연동 | [![GitHub](https://img.shields.io/badge/-@12hsh12-181717?style=flat-square&logo=github)](https://github.com/12hsh12) |
-
+|                                프로필                                 | 이름       | 역할                    | 담당 업무                                                                                    |                                                            GitHub                                                            |
+| :-------------------------------------------------------------------: | ---------- | ----------------------- | -------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://github.com/SeoukwooLee.png" width="80" height="80"> | **이석우** | Leader/AI·Data Engineer | Panel Search Pipeline Development<br/>Data Structure Development                             | [![GitHub](https://img.shields.io/badge/-@SeoukwooLee-181717?style=flat-square&logo=github)](https://github.com/SeoukwooLee) |
+|   <img src="https://github.com/Dawon-Y.png" width="80" height="80">   | **양다원** | Full-stack Developer    | UI Design & Frontend Development<br/>Backend API Development (Login/Search)                  |    [![GitHub](https://img.shields.io/badge/-@Dawon--Y-181717?style=flat-square&logo=github)](https://github.com/Dawon-Y)     |
+|  <img src="https://github.com/WinterFlw.png" width="80" height="80">  | **정수현** | AI·Data Engineer        | AI Architecture Design<br/>Data Embedding                                                    |   [![GitHub](https://img.shields.io/badge/-@WinterFlw-181717?style=flat-square&logo=github)](https://github.com/WinterFlw)   |
+|   <img src="https://github.com/12hsh12.png" width="80" height="80">   | **홍성환** | Full-stack Developer    | UI Design & Frontend Development<br/>Backend API Development (Library/History/Panel Details) |     [![GitHub](https://img.shields.io/badge/-@12hsh12-181717?style=flat-square&logo=github)](https://github.com/12hsh12)     |
 
 ## 🎥 주요 화면
+
 1. 메인 검색 화면
+
 - 로그인 후 자연어로 패널 검색<br/>
   <img width="661" height="297" alt="image" src="https://github.com/user-attachments/assets/05368a55-1cb2-4037-94bd-9519cb952984" />
-
 
 2. 검색 결과 화면
 
@@ -65,40 +68,23 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 - 개별 패널: 유사도 점수 + 매칭된 질문 응답<br/>
   <img width="658" height="292" alt="image" src="https://github.com/user-attachments/assets/78b26064-285c-416f-877a-f75746bf1d4a" />
 
-
 3. 패널 상세 페이지
+
 - 개별 패널의 고유 페르소나, 기본 프로필, 태그 정보<br/>
   <img width="662" height="302" alt="image" src="https://github.com/user-attachments/assets/efa4ed63-4ec5-4cf5-a118-bcd562171d18" />
 
-
 4. 검색 히스토리 & 라이브러리
+
 - 검색 기록 조회 및 재실행
 - 자주 사용하는 검색 저장 관리<br/>
   <img width="645" height="292" alt="image" src="https://github.com/user-attachments/assets/86c8ac4d-def4-4020-a23f-e0a81ac49857" />
 
-
 ## 🏗 시스템 아키텍처
 
-``` bash
-┌─────────────┐      ┌──────────────┐      ┌─────────────────┐      ┌──────────┐
-│             │      │              │      │                 │      │          │
-│  Frontend   │────▶│  API Server  │────▶│ Data Pipeline   │────▶│  SQLite  │
-│  (React)    │◀────│  (FastAPI)   │◀────│  (FastAPI)      │◀────│   DB     │
-│             │      │              │      │                 │      │          │
-│  Port 5173  │      │  Port 5001   │      │  Port 8000      │      │ ChromaDB │
-└─────────────┘      └──────────────┘      └─────────────────┘      └──────────┘
-                            │                      │                       │
-                            │                      │                       │
-                            ├──────────────────────┴───────────────────────┘
-                            │         Cache & Session Management
-                            │
-                     ┌──────┴───────┐
-                     │ BGE Reranker │
-                     │   (Local)    │
-                     └──────────────┘
-```
+<img width="692" height="498" alt="네얼간이 아키텍처" src="https://github.com/user-attachments/assets/8ab52661-2606-4d09-91e1-73b297c5517c" />
 
 ### 계층별 역할
+
 #### Frontend (React + Vite)
 
 - 사용자 인터페이스
@@ -128,8 +114,10 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 - ChromaDB: 벡터 검색 (질문 44개 + 답변 ~202K개)
 
 ## ✨ 주요 기능
+
 ### 1. 🔍 지능형 3-Tier 검색
-``` bash
+
+```bash
 사용자 쿼리: "서울 20대 여성 중 ChatGPT 사용하는 사람"
                               ↓
 ┌─────────────────────────────────────────────────────────────┐
@@ -173,8 +161,10 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 - Full Pipeline (CPU): ~2.5분
 
 ### 2. 🎭 AI 페르소나 생성
+
 그룹 페르소나 (LLM 생성)
-``` json
+
+```json
 {
   "text": "30대 초반의 액티브한 아웃도어 애호가로, 주말마다 등산이나 캠핑을 즐기며...",
   "hashtags": ["#아웃도어", "#30대", "#액티브", "#캠핑"],
@@ -192,6 +182,7 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 - 검색 시 유사도 점수와 함께 제공
 
 ### 3. 📊 인터랙티브 통계 시각화
+
 - Chart.js 기반 차트
 
 - 연령대별 분포 (막대 그래프)
@@ -201,9 +192,10 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 - 소득별 분포 (선 그래프)
 
 클릭 한 번으로 차트 전환
-``` bash
+
+```bash
 // 사용자가 "연령대" 클릭 → BarChart 렌더링
-<BarChart 
+<BarChart
   data={{
     labels: ["20대", "30대", "40대"],
     values: [50, 300, 100]
@@ -215,11 +207,12 @@ All is Well은 방대한 패널 데이터베이스에서 사용자의 자연어 
 ### 4. 🔄 대화형 드릴다운 검색
 
 연속 질문 시나리오:
-``` bash
+
+```bash
 1차 검색: "캠핑 좋아하는 사람" → 450명
    ↓ session_id 유지
 2차 검색: "이 중에서 서울 거주자" → 120명
-   ↓ session_id 유지  
+   ↓ session_id 유지
 3차 검색: "이 중에서 30대만" → 80명
 ```
 
@@ -229,8 +222,10 @@ LangGraph 상태 관리:
 - 전체 재검색 불필요 → 효율성 극대화
 
 ### 5. 📥 데이터 활용 기능
+
 CSV 다운로드
-``` bash
+
+```bash
 패널ID,나이,성별,지역,구역,직업,요약,유사도
 PANEL_001,32,남성,서울,강남구,IT 개발자,주말마다 캠핑을...,0.95
 ```
@@ -239,16 +234,19 @@ PANEL_001,32,남성,서울,강남구,IT 개발자,주말마다 캠핑을...,0.95
 - 타임스탬프 파일명: `panel_results_20241128_143022.csv`
 
 **검색 히스토리**
+
 - 최근 검색 자동 저장
 - 클릭으로 이전 결과 즉시 복원
 
 **라이브러리**
+
 - 자주 사용하는 검색 저장
 - 사용자 지정 제목 관리
 
 ## 🛠 기술 스택
 
 ### Frontend
+
 ```
 React 18.x              UI 라이브러리
 TypeScript              타입 안전성
@@ -263,6 +261,7 @@ Lucide React            아이콘
 ```
 
 ### Backend (API Server)
+
 ```
 FastAPI 0.115+          비동기 REST API 프레임워크
 Python 3.10+            프로그래밍 언어
@@ -274,6 +273,7 @@ python-jose             JWT 토큰
 ```
 
 ### Data Pipeline
+
 ```
 FastAPI 0.115+          비동기 API 서버
 Python 3.13             BGE Reranker 의존성
@@ -287,6 +287,7 @@ sentence-transformers   BGE 모델 로더
 ```
 
 ### Database
+
 ```
 SQLite                  구조화 데이터 (111MB)
   - 36,113명 패널 정보
@@ -299,6 +300,7 @@ ChromaDB                벡터 검색 (~1.5GB)
 ```
 
 ## 📁 프로젝트 구조
+
 ```
 AllIsWell/
 ├── Frontend/                           # React 프론트엔드
@@ -363,8 +365,8 @@ AllIsWell/
     └── requirements.txt
 ```
 
-
 ## 🚀 빠른 시작
+
 사전 요구사항
 
 Node.js 18.x 이상
@@ -372,6 +374,7 @@ Python 3.10 이상 (파이프라인은 3.13 권장)
 OpenAI API Key
 
 1️⃣ Frontend 설정 및 실행
+
 ```
 cd Frontend
 
@@ -387,6 +390,7 @@ npm run dev
 ```
 
 2️⃣ Backend (API Server) 설정 및 실행
+
 ```
 cd Backend
 
@@ -407,6 +411,7 @@ python main.py
 ```
 
 3️⃣ Data Pipeline 설정 및 실행
+
 ```
 cd DataPipeline
 
@@ -433,6 +438,7 @@ python run_pipeline.py
 ```
 
 4️⃣ 전체 시스템 실행 순서
+
 ```
 # Terminal 1: Data Pipeline
 cd DataPipeline
@@ -452,6 +458,7 @@ npm run dev
 접속: http://localhost:5173
 
 ## 📊 성능 및 비용
+
 데이터 규모
 
 - 패널: 36,113명
@@ -461,14 +468,15 @@ npm run dev
 - 데이터베이스: 111MB (SQLite) + ~1.5GB (ChromaDB)
 
 검색 성능
+
 ### 검색 성능
 
-| 검색 유형 | 사용 Tier | 처리 시간 | 설명 |
-|----------|----------|----------|------|
-| 인구통계 검색 | Tier 1 | ~50ms ⚡ | SQL WHERE (성별, 나이, 지역) |
-| 구조화 키워드 | Tier 1+2 | ~100ms ⚡ | SQL + LIKE (직업, 학력, 소득) |
-| 의미론적 검색 (GPU) | Full Pipeline | ~17초 | 벡터 검색 + BGE Reranker |
-| 의미론적 검색 (CPU) | Full Pipeline | ~2.5분 | 벡터 검색 + BGE Reranker |
+| 검색 유형           | 사용 Tier     | 처리 시간 | 설명                          |
+| ------------------- | ------------- | --------- | ----------------------------- |
+| 인구통계 검색       | Tier 1        | ~50ms ⚡  | SQL WHERE (성별, 나이, 지역)  |
+| 구조화 키워드       | Tier 1+2      | ~100ms ⚡ | SQL + LIKE (직업, 학력, 소득) |
+| 의미론적 검색 (GPU) | Full Pipeline | ~17초     | 벡터 검색 + BGE Reranker      |
+| 의미론적 검색 (CPU) | Full Pipeline | ~2.5분    | 벡터 검색 + BGE Reranker      |
 
 **참고:** 대부분의 쿼리는 Tier 1-2만 사용하여 1초 이내 응답
 
@@ -493,7 +501,9 @@ BGE Reranker: $0 (로컬 모델)
 10,000회 검색/월: ~$10
 
 ## 💼 기대 효과
+
 ### 경제적 측면
+
 #### 1. 생산성 향상 & 비용 절감
 
 - 복잡한 SQL 작성 불필요 → 데이터 분석 인력 시간 절감
@@ -507,6 +517,7 @@ BGE Reranker: $0 (로컬 모델)
 - 고품질 의사결정 지원 → 사업 성공률 향상
 
 ### 사회적 측면
+
 #### 1. 연구 & 기술 혁신 가속화
 
 - 연구 생산성 제고 (논문, 특허, 임상 대상자 모집)
@@ -522,6 +533,6 @@ BGE Reranker: $0 (로컬 모델)
 - SQL 지식 없이 자연어로 데이터 탐색
 - 조직 전반의 데이터 기반 문화 확산
 
-
 ## 📄 라이선스
+
 이 프로젝트는 MIT 라이선스를 따릅니다.
