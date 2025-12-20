@@ -537,4 +537,4 @@ BGE Reranker: $0 (로컬 모델)
 ## 📄 라이선스
 
 - 이 프로젝트는 한성대학교 기업연계 SW캡스톤디자인 수업에서 진행되었습니다.
-- [[GitHub](#()](https://github.com/hansung-sw-capstone-2025-2)
+- [[GitHub](https://github.com/hansung-sw-capstone-2025-2)]
